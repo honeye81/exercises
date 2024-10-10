@@ -1,0 +1,110 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fa; 
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Header styling */
+header {
+    background-color: #4a90e2; 
+    color: white;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-top: 10px;
+}
+
+/* Text section styling */
+.text-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+}
+
+.text-section h2 {
+    font-size: 1.8rem;
+    color: #4a90e2;
+    margin-bottom: 20px;
+}
+
+.text-section p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+/* Video section styling */
+.video-section {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.video-section iframe {
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+/* Horizontal list styling for links */
+.links ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.links ul li {
+    padding: 10px;
+}
+
+.links ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #4a90e2;
+}
+
+.links ul li a:hover {
+    color: #007BFF;
+    text-decoration: underline;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 0.9rem;
+    position: relative;
+    bottom: 0;
+}
