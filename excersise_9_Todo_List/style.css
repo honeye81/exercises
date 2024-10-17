@@ -1,0 +1,26 @@
+body {
+    background-color: #f8f9fa;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+#itemInput {
+    font-size: 1.2em;
+}
+
+#itemList li {
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+.purchased {
+    text-decoration: line-through;
+    background-color: #d4edda;
+}
+
+#bulkActions button {
+    margin-right: 10px;
+}
