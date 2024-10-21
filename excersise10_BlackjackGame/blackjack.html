@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blackjack Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>Welcome to Blackjack!</h1>
+    <div class="controls">
+      <label for="deckCount">Select number of decks:</label>
+      <select id="deckCount">
+        <option value="1">1 Deck</option>
+        <option value="2">2 Decks</option>
+        <option value="3">3 Decks</option>
+        <option value="4">4 Decks</option>
+      </select>
+
+      <label for="cardCount">Number of cards to draw:</label>
+      <input type="number" id="cardCount" value="1" min="1" max="10">
+      
+      <button id="drawCardBtn" class="button">Draw Card(s)</button>
+      <button id="resetGameBtn" class="button reset">Reset Deck</button>
+    </div>
+
+    <div id="cardDisplay"></div>
+    <div id="resultMessage"></div>
+  </div>
+
+  <script src="blackjack.js"></script>
+</body>
+</html>
